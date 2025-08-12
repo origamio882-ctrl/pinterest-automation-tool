@@ -1,1 +1,23 @@
+{
+  "name": "pinterest-automation-backend",
+  "version": "1.0.0",
+  "description": "A backend server to schedule Pinterest pins.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "pinterest",
+    "automation",
+    "scheduler"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^2.6.7"
+  }
+}
 
